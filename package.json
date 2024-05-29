@@ -1,8 +1,8 @@
 {
-  "name": "camera_kit_demo",
-  "version": "1.0.0",
+  "name": "emy",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "packed.js",
   "scripts": {
     "start": "webpack --mode=development --watch",
     "build": "webpack",
