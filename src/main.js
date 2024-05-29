@@ -18,7 +18,7 @@ const mediaStream = await navigator.mediaDevices.getUserMedia({
 
 const source = createMediaStreamSource(mediaStream, {
   transform: Transform2D.MirrorX,
-  cameraType: 'user'
+  cameraType: 'front'
 })
 
 await session.setSource(source);
